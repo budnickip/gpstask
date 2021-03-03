@@ -28,3 +28,17 @@
 .drag-area__paragraph{
     margin: 8px;
 }
+
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .drag-area{
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .drag-area{
+        width: 90%;
+    }
+}
