@@ -13,3 +13,5 @@ GPS miejsca wykonania zdjęcia. Zadaniem skryptu jest:
 
 
 W wersji zaawansowanej zdjęcie może być dodawane przez drag&drop
+
+Ostatnie z dodanych zdjęć zapisywane jest w localstorage i pod odpaleniu aplikacji jest wyświetlane wraz z mapą.

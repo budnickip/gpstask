@@ -11,6 +11,7 @@ const readFile = () =>{
     })
     dropArea.addEventListener('drop', (event) =>{
         const reader = new FileReader()
+        document.querySelector('.map')?.remove()
         reader.readAsDataURL(event.dataTransfer.files[0])
         reader.addEventListener("load", ()=>{
             localStorage.setItem("recent-image", reader.result)
@@ -21,7 +22,7 @@ const readFile = () =>{
     })
     document.querySelector('#myFileInput').addEventListener('change', function(){
         const reader = new FileReader()
-        document.querySelector('.map').remove()
+        document.querySelector('.map')?.remove()
         reader.readAsDataURL(this.files[0])
         reader.addEventListener("load", ()=>{
             localStorage.setItem("recent-image", reader.result)
