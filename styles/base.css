@@ -3,6 +3,5 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--baseGrey, grey);
-    height: 95vh;
     font-size: 18px;
 }

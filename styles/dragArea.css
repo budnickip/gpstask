@@ -1,0 +1,30 @@
+.drag-area{
+    height: 350px;
+    width: 350px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: dashed;
+    margin-top: 1em;
+}
+
+.active{
+    border-style: solid;
+}
+
+.drag-area__icon{
+    color: var(--baseGrey, grey);
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+
+.drag-area__paragraph-info{
+    font-size: 1.2em;
+    margin: 8px;
+    text-align: center;
+}
+
+.drag-area__paragraph{
+    margin: 8px;
+}

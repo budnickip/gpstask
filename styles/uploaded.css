@@ -1,19 +1,46 @@
 .uploaded-data{
     margin-top: 3em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .uploaded-data__img{
-    flex: 1;
     height: 400px;
+    max-width: 100%;
 }
 
 .map{
-    flex: 1;
     height: 400px;
+    min-width: 350px;
+    flex: 1;
 }
 
 .error{
     color: red;
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .uploaded-img{
+        width: 100%;
+    }
+    .uploaded-data__img{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .uploaded-img{
+        width: 100%;
+    }
+    .uploaded-data__img{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
 }

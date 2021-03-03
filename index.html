@@ -12,7 +12,12 @@
 </head>
 <body>
 	<div class="container">
-		<input type="file" id="myFileInput">
+		<div class="drag-area">
+			<span class="drag-area__icon fas fa-cloud-upload-alt"></span>
+			<p class="drag-area__paragraph-info">Przeciągnij i upuść żeby załadować zdjęcie</p>
+			<p class="drag-area__paragraph">lub</p>
+			<input class="drag-area__input" type="file" id="myFileInput">
+		</div>
 		<div class="uploaded-data">
 			<div class="uploaded-img">
 
@@ -20,6 +25,7 @@
 			<div id="mapid" class="map"></div>
 		</div>
 	</div>
+	<script src="https://kit.fontawesome.com/e893ce96a4.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
