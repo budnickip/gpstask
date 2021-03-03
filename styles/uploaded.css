@@ -1,0 +1,19 @@
+.uploaded-data{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.uploaded-data__img{
+    flex: 1;
+    height: 400px;
+}
+
+.map{
+    flex: 1;
+    height: 400px;
+}
+
+.error{
+    color: red;
+}
