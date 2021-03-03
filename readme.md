@@ -1,5 +1,7 @@
 # II. Dane GPS w obrazkach
 
+live: https://budnickip.github.io/gpstask/
+
 Obecnie praktycznie każde urządzenie dołącza do metadanych EXIF pliku współrzędne
 GPS miejsca wykonania zdjęcia. Zadaniem skryptu jest:
 
