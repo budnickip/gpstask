@@ -7,8 +7,8 @@ function getExif() {
     divMap.id = 'mapid'
     document.querySelector('.uploaded-data').appendChild(divMap)
     EXIF.getData(img, () => {
-        // Calculate latitude decimal
         if(img.exifdata.GPSLatitude  && img.exifdata.GPSLongitude){
+            // Calculate latitude decimal
             let latDegree = img.exifdata.GPSLatitude[0].numerator;
             let latMinute = img.exifdata.GPSLatitude[1].numerator;
             let latSecond = img.exifdata.GPSLatitude[2].numerator;
